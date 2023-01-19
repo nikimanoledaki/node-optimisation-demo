@@ -23,7 +23,7 @@ dontschedule:
     operator: GreaterThan
     target: 0.8
 deschedule:
-  rules
+  rules:
   - metricname: CPUUtilization
     operator: GreaterThan
     target: 0.8
